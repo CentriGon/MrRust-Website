@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron&family=Monoton&family=Oswald&family=Play&family=Radley&display=swap');
+
+.nav-bar {
+    width: 80%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: fixed
+}
+
+.nav-bar-right > button,
+.nav-bar-right > a > button {
+    font-size: 24px;
+    margin: 30px 20px 30px 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid black;
+    transition: transform 0.2s linear;
+}
+
+.nav-bar-right > button:hover,
+.nav-bar-right > a > button:hover {
+    transform: scale(1.3);
+}
+
+#root, 
+body,
+.home-page,
+.components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Oswald";
+    margin: 0px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.hero-section {
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.hero-right {
+    flex: 1, auto;
+    width: 700px;
+}
+
+.rust-image {
+    z-index: -1;
+    width: 700px;
+    position: absolute;
+    top: 20%;
+    left: 55%
+}
+
+.hero-left {
+    margin-right: 100px;
+    flex: 2, auto;
+}
+
+.hero-left > h1 {
+    font-size: 70px;
+    margin: 0px 0px 0px 0px;
+}
+
+.hero-left > button {
+    background-color: #F18639;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0px solid black;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+
+.hero-left > button:hover {
+    transform: translateY(-8px)
+}
+
+.floating-circle-1 {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    animation: idle-circle 10s infinite;
+}
+
+.floating-circle-2 {
+    background-color: orange;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    opacity: 0.7;
+    z-index: 0;
+}
+
+.floating-circle-3 {
+    background-color: orange;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    opacity: 0.7;
+}
+
+@keyframes idle-circle {
+    0% {
+        background-color: orange;
+        z-index: 99;
+        opacity: 1;
+    }
+    50% {
+        background-color: rgb(193, 171, 120);
+        z-index: 0;
+        opacity: 0;
+    }
+    100% {
+        background-color: orange;
+        z-index: 99;
+        opacity: 1;
+    }
+}
+
+.what-it-does > h1,
+.what-its-for > h1 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.what-it-does,
+.what-its-for { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-it-cards,
+.it-for-cards {
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    flex-wrap: wrap;
+}
+
+.display-card > img{
+    width: 150px;
+    height: auto;
+
+}
+
+.display-card {
+    width: 320px;
+    height: 380px;
+    background: linear-gradient(to bottom, #F6B484, #71797e7a);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.display-card > h1 {
+    margin: 0px;
+    font-size: 30px;
+}
+
+.display-card > p {
+    margin: 0px;
+    font-size: 22px;
+    width: 270px;
+}
+
+.interested-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #F6B484, #71797e7a);
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.interested-buttons > button,
+.interested-buttons > a > button {
+    background-color: #D9D9D9;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 30px;
+    border: 0px solid black;
+    font-weight: bold;
+    transition: all 0.2s linear;
+    width: 200px;
+    height: 50px;
+    transition: all 0.2s linear;
+    box-shadow: 3px 3px 3px 3px #d9d9d9;
+}
+
+.interested-buttons > button:hover,
+.interested-buttons > a > button:hover {
+    transform: translateY(-5px)
+}
+
+.interested-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.component > button {
+    background-color: transparent;
+    border: 0px solid black;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: all 0.2s linear;
+    user-select: none;
+}
+
+.component > button:hover {
+    transform: scale(1.2)
+}
+
