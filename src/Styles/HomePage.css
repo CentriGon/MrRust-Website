@@ -26,7 +26,8 @@
 #root, 
 body,
 .home-page,
-.components {
+.components,
+.progress {
     display: flex;
     flex-direction: column;
     align-items: center;

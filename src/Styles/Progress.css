@@ -1,0 +1,54 @@
+.progress > h1 {
+
+    margin-top: 15vh;
+}
+
+.progress-box,
+.last-line {
+    border: 5px solid black;
+    width: 80vw;
+    border-bottom: 0px solid black;
+
+}
+
+.other-info {
+    display: none;
+}
+
+.progress {
+    margin-bottom: 100px;
+}
+
+h3,
+.other-info > p {
+    margin: 0px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date:hover,
+.date:hover + .other-info,
+.other-info:hover + .date {
+    background-color: rgb(232, 232, 232);
+}
+
+h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    user-select: none;
+}
+
+p {
+    font-size: 24px;
+}
+
+#madeVisible {
+    display: block;
+}
+
+
