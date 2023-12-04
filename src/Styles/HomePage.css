@@ -246,3 +246,71 @@ a {
     transform: scale(1.2)
 }
 
+@media (max-width: 1150px) {
+
+    .hero-section {
+        width: 100%;
+    }
+
+    .hero-left {
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hero-right {
+        display: none
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-bar-right > button,
+    .nav-bar-right > a > button {
+        display: none;
+    }
+
+    .left-section {
+        text-align: center;
+        width: 100vw;
+    }
+
+    .nav-bar-left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;;
+        display: flex;
+    }
+    
+    .interested-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .comp {
+        flex-wrap: wrap;
+    }
+
+    .comp-container {
+        margin-bottom: 50px;
+    }
+
+    .floating-circle-2 {
+        display: none;
+    }
+    
+}
+
+.what-it-cards {
+    justify-content: center;
+}
+
+.it-for-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
