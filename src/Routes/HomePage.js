@@ -10,12 +10,17 @@ export const HomePage = () => {
         navigate("/" + location);
     }
 
+    const scrollDown = () => {
+        const targetElement = document.querySelector(".what-it-does");
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return <div className="home-page">
         <NavBar/>
         <div className="hero-section">
             <div className="hero-left">
                 <h1> Rust Removal </h1>
-                <button> Learn More </button>
+                <button onClick={() => {scrollDown()}}> Learn More </button>
                 <div className="floating-circle-1"></div>
                 <div className="floating-circle-2"></div>
                 <div className="floating-circle-3"></div>

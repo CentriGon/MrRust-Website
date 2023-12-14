@@ -158,11 +158,52 @@ export const Progress = () => {
         key={21}
       />
       <ProgressBox
-        Noor=""
-        David=""
-        Ryan=""
+        Noor="Worked on wiring the components of the relay, got relay to work, need to hook it up with raspberry pi"
+        David="Screwed the screws used to attach the ramp to the sandblasting chamber."
+        Ryan="Attached air nozzles to sandblasting chamber"
         date="November 21st, 2023"
-        key={22}
+      />
+      <ProgressBox
+        Noor="Got relay hooked up with raspberry pi"
+        David="Started helping with the dunking mechanism"
+        Ryan="Started dunking mechanism"
+        date="November 28th, 2023"
+      />
+      <ProgressBox
+        Noor="Added program to list of boot up programs on raspberry pi so that it turns on when the raspberry pi runs"
+        David="Helped set up the dunking system and added the motors"
+        Ryan="Continued working on dunking mechanism"
+        date="November 30th, 2023"
+      />
+      <ProgressBox
+        Noor="Website"
+        David="Cut out the frame and bent the edges to put it into a workable frame."
+        Ryan="Secured sandblasting chamber, finished assembling dunking contraption, and added exterior doors"
+        date="December 2nd, 2023"
+      />
+      <ProgressBox
+        Noor="Website"
+        David="Helped connect the nozzles into the frame"
+        Ryan="Worked on preparing machine for sealing and final assembly"
+        date="December 3rd, 2023"
+      />
+      <ProgressBox
+        Noor="Worked on timing code"
+        David="Connected air compressor to nozzle, put together all of the components in the frame"
+        Ryan="Helped to prepare device for electrical components"
+        date="December 5th, 2023"
+      />
+      <ProgressBox
+        Noor="Adjusted code according to testing"
+        David="Helped put together device and troubleshooted air compressor"
+        Ryan="Helped put together device and made small adjustments"
+        date="December 7th, 2023"
+      />
+      <ProgressBox
+        Noor="Met to seal, test, and record final contraption"
+        David="Met to seal, test, and record final contraption"
+        Ryan="Met to seal, test, and record final contraption"
+        date="December 9th, 2023"
       />
       <div className="last-line"></div>
         </div>

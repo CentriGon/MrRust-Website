@@ -35,7 +35,7 @@ export const ProgressBox = (props) => {
                 makeVisible()
             }}>
             <p> Ryan: {props.Ryan} </p>
-            <p> David {props.David} </p>
+            <p> David: {props.David} </p>
             <p> Noor: {props.Noor} </p>
         </div>
     </div>

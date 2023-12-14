@@ -73,7 +73,7 @@ body,
 }
 
 .hero-left > button {
-    background-color: #F18639;
+    background-color: #F6B484;
     font-size: 24px;
     padding: 15px;
     border-radius: 10px;
@@ -87,7 +87,7 @@ body,
 }
 
 .floating-circle-1 {
-    background-color: orange;
+    background-color: #F6B484;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -98,31 +98,32 @@ body,
 }
 
 .floating-circle-2 {
-    background-color: orange;
+    background-color: #F6B484;
     height: 250px;
     width: 250px;
     border-radius: 50%;
     position: absolute;
     top: 5%;
     left: 2%;
-    opacity: 0.7;
-    z-index: 0;
+    opacity: 1;
+    z-index: -1;
 }
 
 .floating-circle-3 {
-    background-color: orange;
+    background-color: #F6B484;
     height: 180px;
     width: 180px;
     border-radius: 50%;
     position: absolute;
     top: 80%;
     left: 20%;
-    opacity: 0.7;
+    opacity: 1;
+    z-index: -1;
 }
 
 @keyframes idle-circle {
     0% {
-        background-color: orange;
+        background-color: #F6B484;
         z-index: 99;
         opacity: 1;
     }
@@ -132,7 +133,7 @@ body,
         opacity: 0;
     }
     100% {
-        background-color: orange;
+        background-color: #F6B484;
         z-index: 99;
         opacity: 1;
     }
@@ -241,7 +242,7 @@ a {
     transition: all 0.2s linear;
     user-select: none;
 }
-
+ 
 .component > button:hover {
     transform: scale(1.2)
 }
